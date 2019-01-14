@@ -3,14 +3,14 @@
 
 * [High level stuff](#high-level-stuff-)
 	* What we're doing this year
-	* Business goals + plans
+	* Business goals and plans
 	* Our values and policies
 * [How we work](#how-we-work-)
 	* People
 	* Accounts and logins
-	* Release process + project management
-	* Data + governance
-	* Operational + customer support: Bugs, logging, customers, etc.
+	* Release process and project management
+	* Data and governance
+	* Operational and customer support: Bugs, logging, customers, etc.
 	* Working with devs: Chat, video, logging, payment, etc.
 * [The tech](#the-tech-)
 	* Context, UML stuff, etc.
@@ -27,7 +27,7 @@ The [Fitzroy Academy](https://fitzroyacademy.com) is an online social enterprise
 
 In 2019 we are rebuilding the entire app, to replace the existing .com with a new app.
 
-## Business goals + plans
+## Business goals and plans
 
 We are minimally funded for 2019, with a focus on helping our partners achieve scale. High level goals include:
 
