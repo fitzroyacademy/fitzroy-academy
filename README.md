@@ -1,18 +1,18 @@
 # Fitzroy Academy, v2.
 ### The brand spanking new 2019 build of the online learning app!
 
-* [High level stuff](#high-level-stuff)
+* [High level stuff](#high-level-stuff-)
 	* What we're doing this year
 	* Business goals + plans
 	* Our values and policies
-* [How we work](#how)
+* [How we work](#how-we-work-)
 	* People
 	* Accounts and logins
 	* Release process + project management
 	* Data + governance
 	* Operational + customer support: Bugs, logging, customers, etc.
 	* Working with devs: Chat, video, logging, payment, etc.
-* [The tech](#tech)
+* [The tech](#the-tech-)
 	* Context, UML stuff, etc.
 	* Video provision
 	* Front end framework. 
@@ -48,7 +48,7 @@ We're a social change org, so the detail on treating people fairly is _super_ im
 
 -------
 
-# How we work {#how} 💬
+# How we work 💬
 
 We are a tiny, high quality, distributed team.
 
@@ -130,7 +130,7 @@ We have a bias towards free, simple tools.
 
 -------
 
-# The tech {#tech}
+# The tech 🤓
 
 Now for the fun stuff, let's build an LMS.
 
