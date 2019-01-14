@@ -6,20 +6,20 @@ The brand spanking new 2019 build of the online learning app!
 	* Business goals + plans
 	* Our values and policies
 * How we work
-  * People
-  * Accounts and logins
-  * Release process + project management
+	* People
+	* Accounts and logins
+	* Release process + project management
 	* Data + governance
 	* Operational + customer support: Bugs, logging, customers, etc.
 	* Working with devs: Chat, video, logging, payment, etc.
 * The tech:
-* Context, UML stuff, etc.
-* Video provision
-* Front end framework. 
-* Backend: Language, monolith vs. microservices, DBs, etc.
-* DevOps: Hosting, CDN, etc.
+	* Context, UML stuff, etc.
+	* Video provision
+	* Front end framework. 
+	* Backend: Language, monolith vs. microservices, DBs, etc.
+	* DevOps: Hosting, CDN, etc.
 
-# High level stuff
+# High level stuff 🥰
 
 The [Fitzroy Academy](https://fitzroyacademy.com) is an online social enterprise school. We create online courses and resources for entrepeneurs, educators and communities.
 
@@ -40,20 +40,24 @@ We are minimally funded for 2019, with a focus on helping our partners achieve s
 
 ## Our values and policies
 
-* [Core FA values](https://docs.google.com/document/d/1yxG_t3YyqWMZkBnVSjN-I9gKSnDiy5q78N4uGndV-2s/edit#): One page Google doc on how we roll
+We're a social change org, so the detail on treating people fairly is _super_ important.
+
+* [Core FA values](https://docs.google.com/document/d/1yxG_t3YyqWMZkBnVSjN-I9gKSnDiy5q78N4uGndV-2s/edit#): One page Google doc on our org-level values;
 * [Code of conduct](https://fitzroyacademy.com/conduct): Our standards for behaviour;
 * _We probably need more high level docs here? - WD_
 
-# How we work
+-------
 
-We are a small, quality, distributed team.
+# How we work 💬
+
+We are a tiny, high quality, distributed team.
 
 ## People
 
-We need more people:
+We need more people this year. Here's the tech team:
 
-* [Will Dayble](http://willdayble.com/): Project lead, full time, Melbourne, AU.
-* **Reid Savage** Tech + devops, contract/part time, Cambridge, USA.
+* [Will Dayble](http://willdayble.com/): Project lead + front end, full time, Melbourne, AU.
+* **Reid** Tech + devops, contract/part time, Cambridge, USA.
 * **???** Backend dev?
 * **???** Frontend dev?
 * **???** Design + UX?
@@ -70,7 +74,7 @@ We need more people:
 
 ## Release process + project management
 
-❗️ No freakin idea. HALP REID.
+❗️ REID! HALP!
 
 ## Data + governance
 
@@ -88,13 +92,72 @@ We need more people:
 3. Help our team build better courses and lessons
 4. Provide benchmarks for student activity to help program managers
 
-# Operational + customer support:
+## Operational + customer support
 
 * [Intercom](https://www.intercom.com/) for high level customer support.
-* We need a support@ email thing...
+* **Todo:** We need a support@ email centralisation thing?
 
---------
+## Working with devs
 
+We work remote, so we love devs who:
+
+* Write simple, well commented, clear code;
+* Use standard best practice, not hipster-level fashionable frameworks;
+* Prefer to work remote than in an office;
+* Are chilled out and easy to work with.
+
+### Tools we use for development 🛠
+
+We have a bias towards free, simple tools.
+
+* [Github](https://www.github.com) for code
+* [Appear.in](https://appear.in/fitzroyacademy) for video chat 
+* [Trello](https://trello.com) for sprints + not forgetting things
+* [Slack](https://www.slack.com) for text chat
+* [Google docs](https://www.google.com/docs/about/) for writing things down that last
+
+### How we pay devs:
+
+* All devs work hour-by-hour;
+* Most devs will have real jobs somewhere else (we can't afford full time staff);
+* Devs report on how many hours done each month, and get paid via Paypal.
+
+### How we onboard new devs:
+
+* Speak to Will Dayble about what we need;
+* Do a paid trial writing a few hours / a day-worth of code;
+* If everyone's happy, agree to a rough expectation of hours / month and sally forth;
+
+-------
+
+# The tech
+
+Now for the fun stuff, let's build an LMS.
+
+## Context, UML stuff, etc 
+
+❗️ REID! HALP!
+
+## Video provision
+
+We use [Wistia](https://wistia.com/) for video hosting. Video is the most important part of the FA app.
+
+## Frontend
+
+Our big aim is to not reinvent the wheel, and use existing frameworks where possible.
+
+* We use [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) as a basis for the app, because it's simple and because Will D is embarrassingly old-school.
+* We use [Front by HTMLStream](http://bit.ly/front-template) for basic HTMLz
+
+## Backend
+
+❗️ REID! HALP!
+
+## DevOps: Hosting, CDN, etc.
+
+❗️ REID! HALP!
+
+-------
 
 # Other stuff / resources
 
