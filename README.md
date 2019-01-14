@@ -1,7 +1,7 @@
 # Fitzroy Academy, v2.
 ### The brand spanking new 2019 build of the online learning app!
 
-* [High level stuff](#highlevel)
+* [High level stuff](#high-level-stuff)
 	* What we're doing this year
 	* Business goals + plans
 	* Our values and policies
@@ -19,7 +19,7 @@
 	* Backend: Language, monolith vs. microservices, DBs, etc.
 	* DevOps: Hosting, CDN, etc.
 
-# High level stuff {#highlevel} 🥰
+# High level stuff 🥰
 
 The [Fitzroy Academy](https://fitzroyacademy.com) is an online social enterprise school. We create online courses and resources for entrepeneurs, educators and communities.
 
