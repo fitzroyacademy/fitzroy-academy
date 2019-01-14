@@ -1,25 +1,25 @@
 # Fitzroy Academy, v2.
-The brand spanking new 2019 build of the online learning app!
+### The brand spanking new 2019 build of the online learning app!
 
-* High level stuff
+* [High level stuff](#highlevel)
 	* What we're doing this year
 	* Business goals + plans
 	* Our values and policies
-* How we work
+* [How we work](#how)
 	* People
 	* Accounts and logins
 	* Release process + project management
 	* Data + governance
 	* Operational + customer support: Bugs, logging, customers, etc.
 	* Working with devs: Chat, video, logging, payment, etc.
-* The tech:
+* [The tech](#tech)
 	* Context, UML stuff, etc.
 	* Video provision
 	* Front end framework. 
 	* Backend: Language, monolith vs. microservices, DBs, etc.
 	* DevOps: Hosting, CDN, etc.
 
-# High level stuff 🥰
+# High level stuff {#highlevel} 🥰
 
 The [Fitzroy Academy](https://fitzroyacademy.com) is an online social enterprise school. We create online courses and resources for entrepeneurs, educators and communities.
 
@@ -48,7 +48,7 @@ We're a social change org, so the detail on treating people fairly is _super_ im
 
 -------
 
-# How we work 💬
+# How we work {#how} 💬
 
 We are a tiny, high quality, distributed team.
 
@@ -130,7 +130,7 @@ We have a bias towards free, simple tools.
 
 -------
 
-# The tech
+# The tech {#tech}
 
 Now for the fun stuff, let's build an LMS.
 
