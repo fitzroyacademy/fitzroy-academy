@@ -235,7 +235,7 @@ The SDLC of the backend follows the structure of the frontend and the business a
 * Cutting edge but not bleeding edge; able to replace technologies (and methodologies) without great pain if they don't meet our needs
 
 ### Ops
-* Copious telemetry and logging to make sure the system works
+* Copious telemetry and monitoring to make sure the system works
 * Copious logging to facilitate debugging and alerting
 	* If we would like to know, notify; if we need to take action, alert heinously
 * Tag, tag, tag resources for security, cost management, and searchability
