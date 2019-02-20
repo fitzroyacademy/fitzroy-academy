@@ -13,11 +13,10 @@
 	* Operational and customer support: Bugs, logging, customers, etc.
 	* Working with devs: Chat, video, logging, payment, etc.
 * [The tech](#the-tech-)
-	* Context, UML stuff, etc.
 	* Video provision
 	* Design principles
 	* Front end	
-	* Backend: Language, monolith vs. microservices, DBs, etc.
+	* Backend
 	* DevOps: Hosting, CDN, etc.
 
 # High level stuff 🥰
@@ -60,7 +59,7 @@ We're a tiny, high quality, distributed team.
 We need more people this year. Here's the team:
 
 * [Will Dayble](http://willdayble.com/): Project lead + front end, full time, Melbourne, AU.
-* **Reid** Tech + devops, contract/part time, Cambridge, USA.
+* [Reid Savage](http://quercy.co) Tech + devops, contract/part time, Cambridge, USA.
 * **???** Backend dev?
 * **???** Frontend dev?
 * **???** Design + UX?
@@ -81,7 +80,7 @@ We use Google accounts (name@fitzroyacademy.com) as our single point of control 
 
 ## Release process + project management
 
-❗️ REID! HALP!
+* TBD
 
 ## Data + governance
 
@@ -124,6 +123,7 @@ We have a bias towards free, simple tools.
 * [Trello](https://trello.com) for sprints + not forgetting things
 * [Slack](https://www.slack.com) for text chat
 * [Google docs](https://www.google.com/docs/about/) for writing things down that last
+* [AWS](https://aws.amazon.com/) for infrastructure
 
 ### How we pay devs:
 
@@ -144,10 +144,6 @@ We are a poor self-funded social enterprise, but everyone gets paid. No interns!
 # The tech 🤓
 
 Now for the fun stuff, let's build an LMS together...
-
-## Context, UML stuff, etc 
-
-❗️ REID! HALP!
 
 ## Video provision
 
@@ -206,11 +202,43 @@ We reinvent as few wheels as possible, and use existing frameworks where we can.
 
 ## Backend
 
-❗️ REID! HALP!
+### SDLC
 
-## DevOps: Hosting, CDN, etc.
+The SDLC of the backend follows the structure of the frontend and the business as a whole; open source by default, declarative, version-controlled, and utilizing existing tools where possible.
+* Diagrams errywhere so the system can be analyzed from multiple perspectives
+	* Model our data flow/information heirarchies
+		* Model the interaction between different users and our services
+* Compliance is a state of being
+	* Our code should match what exists, and constantly run checks to ensure that state is real
+	* SOC 2, ISO 9001 shouldn't be scary words
+* Automate all the things
 
-❗️ REID! HALP!
+### Service Architecture
+* API-based, creating multiple, versioned, medium-sized HTTP-driven services
+* Serverless (if possible) on AWS
+	* Like a SquirrelBin https://aws.amazon.com/blogs/compute/the-squirrelbin-architecture-a-serverless-microservice-using-aws-lambda/
+		* Keep each customer's data separate at the database level (compliance!), and in the right region (GDPR!), and enable end-user data purging
+* Find a naming scheme for services and stick with it
+* Keep it readable; we may come and go, but the services will remain
+* Encapsulate things like Wistia with a facade so it's not hard to switch out if necessary
+
+### Backend code
+* Diagram it first, throw it away, diagram it again, and turn that into code
+* Probably in Python
+* Service size should be medium-small; we don't want 20 microservices to load a page. Maybe 2 or 3.
+	* Don't call other services directly; you're talking to other services, not A Lambda Function (unless it's a data pipeline of some sort)
+
+### Infrastructure
+* Ideally public, Git driven, and collaborative
+* Written in Terraform, ideally with PR-based infrastructure (via a tool like Atlantis) https://youtu.be/TmIPWda0IKg?t=61
+* Utilizing AWS native DNS, CDN, and multi-region tools to conform to data privacy regulations
+* Cutting edge but not bleeding edge; able to replace technologies (and methodologies) without great pain if they don't meet our needs
+
+### Ops
+* Copious telemetry and logging to make sure the system works
+* Copious logging to facilitate debugging and alerting
+	* If we would like to know, notify; if we need to take action, alert heinously
+* Tag, tag, tag resources for security, cost management, and searchability
 
 -------
 
