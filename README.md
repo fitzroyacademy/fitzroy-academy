@@ -195,10 +195,26 @@ Most design is 'designer done' when it's 80-90% finished and basic user needs ar
 
 ## Frontend
 
-We reinvent as few wheels as possible, and use existing frameworks where we can.
+Reinvent as few wheels as possible, use existing (simple) frameworks:
 
 * [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/) as a basis for the app, because it's simple and because Will D is embarrassingly old-school;
-* [Front by HTMLStream](http://bit.ly/front-template) for basic HTMLz + SCSSes.
+* SCSS!
+
+### Some standards
+
+`fit_` is the namespace preface for everything:
+
+* `.fit_btn` is the special flexbox button 
+* `data-fit_foo` is used to attach JS events, i.e. `$("[data-fit_foo]")`
+
+P.S. put all your `data-fit_foo_bar='blerp'` at the END of elements.
+
+### Standard for CSS (that actually cascades is):
+
+* `.fit_foo` for everything
+* `.fit_foo .subclass` for anything that cascades. We should never set a class for `.subclass` in this case, only ever `.fit_foo .subclass`
+* Leave bootstrap variables as they are.
+
 
 ## Backend
 
