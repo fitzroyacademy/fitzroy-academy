@@ -58,13 +58,11 @@ We're a tiny, high quality, distributed team.
 
 We need more people this year. Here's the team:
 
-* [Will Dayble](http://willdayble.com/): Project lead + front end, full time, Melbourne, AU.
-* [Reid Savage](http://quercy.co) Tech + devops, contract/part time, Cambridge, USA.
-* **???** Backend dev?
-* **???** Frontend dev?
-* **???** Design + UX?
-* **???** Customer support?
-* **Prashant Raju** Data + analytics
+* **[@willdayble](https://github.com/willdayble):** Front end, Melbourne, AU.
+* **[@yuffster](https://github.com/yuffster):** Lead tech, Washington DC, USA.
+* **[@quercy](https://github.com/quercy):** Devops + deployment, Cambridge, USA.
+* **Maciej:** Backend Dev, Torun, Poland
+* **Saaransh Mehta** Data + analytics + ML
 
 
 ## Accounts + logins
